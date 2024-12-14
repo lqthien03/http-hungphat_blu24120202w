@@ -1,0 +1,106 @@
+
+:root {
+    --s1: #3fa07e;
+    --s2: #ec2d3f;
+
+  }
+.selectsort {
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+    transition: 300ms;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .selected {
+    background-color: var(--s1);
+    padding: 5px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 100000;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .arrow {
+    position: relative;
+    right: 0px;
+    height: 10px;
+    transform: rotate(-90deg);
+    width: 25px;
+    fill: white;
+    z-index: 100000;
+    transition: 300ms;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--s1);
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    transition: 300ms;
+  }
+  
+  .selectsort:hover > .options {
+    opacity: 1;
+    top: 0;
+  }
+  
+  .selectsort:hover > .selected .arrow {
+    transform: rotate(0deg);
+  }
+  
+  .option {
+    border-radius: 5px;
+    padding: 5px;
+    transition: 300ms;
+    background-color: var(--s1);
+    width: 150px;
+    font-size: 15px;
+  }
+  .option:hover {
+    background-color: var(--s2);
+  }
+  
+  .options input[type="radio"] {
+    display: none;
+  }
+  
+  .options label {
+    display: inline-block;
+  }
+  .options label::before {
+    content: attr(data-txt);
+  }
+  
+  .options input[type="radio"]:checked + label {
+    display: none;
+  }
+  
+  .options input[type="radio"]#all:checked + label {
+    display: none;
+  }
+  
+  .selectsort:has(.options input[type="radio"]#all:checked) .selected::before {
+    content: attr(data-default);
+  }
+  .selectsort:has(.options input[type="radio"]#az:checked) .selected::before {
+    content: attr(data-one);
+  }
+  .selectsort:has(.options input[type="radio"]#za:checked) .selected::before {
+    content: attr(data-two);
+  }
+  /* .dropdown_select.sort_news {
+    position: relative;
+    height: 30px;
+    justify-content: flex-end;
+    margin: 0 0 50px;
+} */

@@ -1,0 +1,1321 @@
+@media (max-width: 1024px) {
+    .operation {
+        width: 55%;
+    }
+
+    .slick-youtube .slick-prev {
+        right: -50%;
+    }
+
+    .slick-youtube .slick-next {
+        right: -58%;
+    }
+
+    .footer-news:nth-child(4) {
+        width: 20%;
+    }
+
+    .gioithieu-bottom {
+        bottom: -350px;
+        right: 20px;
+    }
+
+    .line-title {
+        height: 200px;
+    }
+
+    .info-gioithieu {}
+
+    .xemthem-gioithieu {
+        margin-top: 10px;
+    }
+
+    .section-video {
+        right: 30px;
+    }
+
+    .w-menu {
+        display: none;
+    }
+
+    .left_newsdm {
+        width: 100%;
+    }
+
+    .right_newsdm {
+        display: none;
+    }
+
+    .wrap__logommenu {
+        display: block;
+    }
+
+    .breadCrumbs {
+        padding-top: 85px;
+    }
+
+    .slideshow {
+        padding-top: 131px;
+    }
+
+    .wrap__logommenu {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        width: 100%;
+        background: var(--c1);
+    }
+
+    /*  */
+    .header_mobile {
+        display: block;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .search-res .icon-search {
+        color: black;
+        font-size: 20px;
+    }
+
+    /*  */
+    .contact-input {
+        margin-bottom: 15px;
+    }
+
+    .flex-cus,
+    .row-video,
+    .row-20 {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .mg-cus,
+    .mg-video,
+    .col-20 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .content-text img {
+        height: auto !important;
+    }
+
+    .padding-top-bottom {
+        padding: 2rem 0;
+    }
+
+    .pad-top {
+        padding-top: 2rem;
+    }
+
+    .pad-bottom {
+        padding-bottom: 2rem;
+    }
+
+    .mg-top {
+        margin-top: 2rem;
+    }
+
+    .mg-bottom {
+        margin-bottom: 2rem;
+    }
+
+    .title-detail-main {
+        font-size: 20px;
+    }
+
+    .cart-fixed {
+        bottom: 220px;
+    }
+
+    .btn-frame {
+        display: none;
+    }
+
+    .cart-pro-detail {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .pad-bottom {
+        padding-bottom: 2rem !important;
+    }
+
+    .pad-top {
+        padding-top: 2rem !important;
+    }
+
+    .padding-top-bottom {
+        padding: 2rem 0 !important;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-res {
+        display: block;
+    }
+
+    .product-tool {
+        opacity: 1;
+        visibility: visible;
+        position: initial;
+    }
+
+    .product-tool a span {
+        display: none;
+    }
+
+    body.menu-open {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .wrap_logommenu {
+        text-align: center;
+        background: var(--c1);
+    }
+}
+
+@media (max-width: 992px) {
+    .othernews {
+        position: initial;
+    }
+
+    .footer-title:after {
+        width: 100%;
+    }
+
+    #fanpage-facebook {
+        width: 300px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .footer-news:nth-child(4) {
+        width: 100%;
+    }
+
+    .footer-news:nth-child(3) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-news:nth-child(2) {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .footer-news:nth-child(1) {
+        width: 100%;
+    }
+
+    .time-news {
+        display: none;
+    }
+
+    .copyright,
+    .statistic {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-ul li {
+        width: calc(100% / 2 - 5px);
+    }
+
+    .footer-ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-gioithieu {
+        padding: 20px;
+    }
+
+    .wrap-duan-tieubieu {
+        padding: 20px 0px;
+    }
+
+    .left-duan-tieubieu {
+        display: none;
+    }
+
+    .right-duan-tieubieu {
+        width: 100%;
+    }
+
+    .control-duan-tieubieu button.owl-prev {
+        display: none;
+    }
+
+    .control-duan-tieubieu button.owl-next {
+        display: none;
+    }
+
+    .wrap-mau-3d {
+        padding: 20px 0px;
+    }
+
+    .left-mau-3d {
+        display: none;
+    }
+
+    .right-mau-3d {
+        width: 100%;
+    }
+
+    .control-mau-3d button.owl-prev {
+        display: none;
+    }
+
+    .control-mau-3d button.owl-next {
+        display: none;
+    }
+    .grid-duan{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .tintuc-time {
+        left: 10px;
+        padding: 5px;
+    }
+
+    .footer {
+        margin-bottom: 0px !important;
+        background-size: cover;
+    }
+
+    .footer-article .wrap-content {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .map-facebook {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .footer-article {
+        padding: 20px 0px;
+        background-size: cover;
+    }
+
+    .play-video {
+        width: 40px;
+        height: 30px;
+    }
+
+    .info-gioithieu::before {
+        display: none;
+    }
+
+    .box-main-gioithieu {
+        gap: 20px;
+    }
+
+    .box-main-why {
+        gap: 0px;
+    }
+
+    .box-right-why {
+        align-items: center;
+    }
+
+    .box-left-why {
+        padding: 20px 0px;
+    }
+
+    .box-right-why img:last-of-type {
+        left: 0px;
+    }
+
+    .wrap-why {
+        background: #006838;
+        background-size: cover;
+    }
+
+    .box-main-why {
+        flex-direction: column;
+    }
+
+    .box-left-why {
+        width: 100%;
+        /* background: url(../imgs/taisao_left.png) no-repeat;
+        background-size: cover; */
+    }
+
+    .box-right-why {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .box-main-video {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .col-group2 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 10px;
+    }
+
+    .group-tuvan {
+        margin-bottom: 0px;
+    }
+
+    .input-group textarea {
+        margin-top: 10px;
+    }
+
+    .col-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-product {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .wrap-dichvu::before {
+        display: none;
+    }
+
+    .wrap-gioithieu::before {
+        display: none;
+    }
+
+    .wrap-dichvu::after {
+        display: none;
+    }
+
+    .hotline-xemthem {
+        display: none;
+    }
+
+    .box-main-eating-noibat {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .eating-group {
+        display: none;
+    }
+
+    .eating-noibat-name {
+        font-size: 16px;
+    }
+
+    .eating-noibat-desc {
+        line-height: 20px;
+    }
+
+    .eating-noibat-item:nth-child(1) {}
+
+    .eating-noibat-item:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .eating-noibat-item:nth-child(3) {
+        flex-direction: row;
+    }
+
+    .wrap-eating-noibat {
+        padding: 20px 0px;
+    }
+
+    .title-main span {
+        font-size: 24px;
+    }
+
+    .quytrinh-none {
+        opacity: 1;
+    }
+
+    .box-main-quytrinh .wrap-content {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+
+    .top-quytrinh {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .quytrinh-number {
+        width: 100%;
+    }
+
+    .quytrinh-number h3 {
+        width: 100%;
+    }
+
+    .center-quytrinh {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px;
+        display: none;
+    }
+
+    .line-baohanh {
+        flex-direction: column;
+    }
+
+    .left-baohanh {
+        width: 100%;
+        border-bottom: 2px solid white;
+        border-right: none;
+    }
+
+    .right-baohanh {
+        width: 100%;
+    }
+
+    .box-main-dangky {
+        margin: 0px;
+        padding: 20px 30px;
+    }
+
+    .title-main p {
+        font-size: 12px;
+        margin-bottom: 1.5rem;
+    }
+
+    #magazine {
+        width: 380px;
+        height: 220px;
+    }
+
+    .bottom-quytrinh {
+        display: none;
+    }
+
+    .wrap-menu::after {
+        display: none;
+    }
+
+    .wrap-menu {
+        padding: 20px 0px;
+        background-size: cover;
+    }
+
+    .dichvu-name {
+        font-size: 18px;
+    }
+
+    .dichvu-ablout {
+        font-size: 12px;
+    }
+
+    .group-booking {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box-time {
+        width: 100%;
+    }
+
+    .box-booking {
+        width: 100%;
+    }
+
+    .wrap-tintuc {
+        padding: 20px 0px;
+    }
+
+    .wrap-tintuc::before {
+        display: none;
+    }
+
+    .box-main-tintuc {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .box-main-khonggian .owl-page .owl-stage-outer .owl-stage .owl-item.active.center {
+        transform: scale(1);
+    }
+
+    .box-main-khonggian .owl-page .owl-stage-outer .owl-stage .owl-item {
+        margin: 0px;
+    }
+
+    .khonggian-info .khonggian-desc {
+        font-size: 12px;
+    }
+
+    .box-main-video {
+        flex-direction: column;
+    }
+
+    .left-video {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right-video {
+        width: 100%;
+    }
+
+    .left-video .item-video {
+        display: none;
+    }
+
+    .group-title-video {
+        width: 100%;
+    }
+
+    .wrap-menu::before {
+        display: none;
+    }
+
+    .footer-copyright {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-info {
+        margin: 0px;
+    }
+
+    .tintuc-xemthem {
+        padding: 5px 15px;
+    }
+
+    .eating-noibat-item:nth-child(4) {}
+
+    .eating-about .icon {
+        height: 25px;
+        width: 25px;
+        font-size: 14px;
+    }
+
+    .wrap-group-video .wrap-content {
+        flex-direction: column;
+    }
+
+    .group-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .group-banner {
+        width: 100%;
+    }
+
+    .banner-facebook {
+        width: fit-content;
+    }
+
+    .banner-tiktok {
+        width: fit-content;
+    }
+
+    .wrap-baogia-album .wrap-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .validation-newsletter {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .wrap-baogia-album img {
+        /* width: 100%; */
+        display: none;
+    }
+
+    .group-baogia {
+        width: 100%;
+    }
+
+    .group-album {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .img-gioithieu::after {
+        transform: rotate(360deg);
+    }
+
+    .img-gioithieu .img1 {
+        left: 30px;
+    }
+
+    .img-gioithieu .img2 {
+        right: 30px;
+    }
+
+    .logo-head {
+        position: static;
+    }
+
+    .box-main-dichvu {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .wrap-dangky-tuyendung .wrap-content {
+        flex-direction: column;
+    }
+
+    .group-dangky {
+        width: 100%;
+    }
+
+    .group-tuyendung {
+        width: 100%;
+    }
+
+    .box-main-album {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .album-image-item-0 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .album-image-item-1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .album-image-item-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .album-image-item-3 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+
+    .album-image-item-4 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+
+    }
+
+    .wrap-group-khachhang-video .wrap-content {
+        flex-direction: column;
+    }
+
+    .wrap-album {
+        overflow: hidden;
+    }
+
+    .group-khachhang {
+        width: 100%;
+    }
+
+    .group-video {
+        width: 100%;
+    }
+
+    .xem-them-news {
+        bottom: 50px;
+    }
+
+    .slogan-tieuchi {
+        width: 80%;
+    }
+
+    .desc-gioithieu {
+        width: 100%;
+    }
+
+    .box-main-duan {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .duan-image-item-0 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .duan-image-item-1 {
+
+        display: none;
+    }
+
+    .duan-image-item-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .duan-image-item-3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .duan-image-item-4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .logo {
+        position: relative;
+        display: none;
+    }
+
+    .operation {
+        width: 30%;
+        padding-left: 60px;
+    }
+
+    .slick-youtube {
+        width: 90%;
+        z-index: 2;
+    }
+
+    .operation .title-video {
+        padding: 0px;
+    }
+
+    .slick-youtube .slick-prev {
+        right: -13%;
+    }
+
+    .slick-youtube .slick-next {
+        right: -20%;
+    }
+
+    .footer-title {
+        margin-top: 0px;
+    }
+
+    .padding-top-bottom {
+        padding: 0px !important;
+    }
+
+    .line-title {
+        margin-right: 25px;
+        width: 650px;
+        top: -35px;
+    }
+
+    .grid-product-seller {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .xemthem {
+        right: 4%;
+    }
+
+    .owl-item.active.center .feedback-item {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .owl-item.active.center .feedback-item .info-feedback {
+        position: relative;
+        right: 0px;
+        margin: 0px;
+    }
+
+    .box-main-feedback {
+        height: auto;
+    }
+
+    .section-video {
+        position: relative;
+        width: 100%;
+        right: 0px;
+        top: 15px;
+    }
+
+    .line-title {
+        margin-right: 0px;
+        width: 100%;
+        border: none;
+    }
+
+    .xemthem-gioithieu {
+        margin-top: 40px;
+    }
+
+    .line-title .name-gioithieu {
+        font-size: 50px;
+        top: -40px;
+    }
+
+    .gioithieu-top .group-gioithieu {
+        display: none;
+    }
+
+    .slider-nav .slick-list {
+        height: auto !important;
+    }
+
+    .gioithieu-bottom {
+        bottom: -430px;
+        right: 0px;
+    }
+
+    .box-main-gioithieu {
+        flex-direction: column;
+    }
+
+    .img-gioithieu {
+        width: 100%;
+    }
+
+    .gioithieu-bottom::after {
+        display: none;
+    }
+
+    .info-gioithieu {
+        width: auto;
+    }
+
+    .coll-sortby.d-flex.justify-content-between.align-items-center {
+        display: flex;
+        justify-content: flex-end !important;
+        gap: 10px;
+    }
+
+    .coll-head {
+        display: block;
+    }
+
+    .content-text img {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .content-text {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .content-text video {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    h1.title_pageproductsorrt {
+        text-align: center;
+    }
+
+    .coll-head {
+        display: block !important;
+    }
+
+    p.cart-product.d-flex.flex-wrap.justify-content-between {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .cart-product span {
+        width: calc(100%);
+    }
+
+    .footer-statistic {
+        text-align: center;
+        display: none;
+    }
+
+    .footer-copyright.col-md-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .item-video1 img {
+        height: 250px;
+    }
+
+    .right-intro {
+        width: 100%;
+    }
+
+    .left-intro {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .left-pro-detail,
+    .right-pro-detail {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .left-pro-detail,
+    .top-contact .article-contact {
+        margin-bottom: 30px;
+    }
+
+    .pic-news {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .info-news {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .name-news {
+        font-size: 15px;
+    }
+
+    .desc-news.text-split {
+        -webkit-line-clamp: 2;
+    }
+
+    .title_contactid {
+        padding: 20px;
+    }
+
+    .gr_titlecontact {
+        height: 20vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact-text {
+        padding: 1rem;
+    }
+
+    .contact-text {
+        margin-bottom: 30px;
+    }
+
+    .wrap_logommenu {
+        display: none;
+    }
+
+    .group-video {
+        flex-direction: column;
+    }
+
+    .one-video {
+        width: 100%;
+    }
+
+    .slick-khachhang {
+        width: 100%;
+    }
+
+    .group-baogia {
+        background: url(../imgs/bgr_baogia.png) no-repeat;
+        background-size: cover;
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .wrap-gioithieu,
+    .wrap-tieuchi,
+    .wrap-dangky-tuyendung,
+    .wrap-album,
+    .wrap-group-khachhang-video,
+    .wrap-dangky {
+        padding: 20px 0px;
+        background-size: cover;
+    }
+
+    .wrap-baogia-album {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .wrap-group-video {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .box-main-product {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .img-gioithieu .img2 {
+        right: 0px;
+    }
+
+    .info-quytrinh::after {
+        display: none;
+    }
+
+    .group-newsletter {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .wrap-doitac {
+        padding: 20px 0px;
+    }
+
+    .group-newsletter .col-group {
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .col-group-text .input-group {
+        margin-bottom: 10px;
+    }
+
+    .info-form {
+        display: none;
+    }
+
+    .group-newsletter .col-group:nth-child(3) {
+        width: 100%;
+    }
+
+    .col-group-text {
+        width: 100%;
+    }
+
+    .info-quytrinh::before {
+        border-width: 0 19px 19px 20px;
+        border-color: transparent transparent #d6d6d6 transparent;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        content: '';
+        top: -20px;
+        /* left: calc(8%); */
+        z-index: 121213;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .img-gioithieu::after {
+        display: none;
+    }
+
+    .info-gioithieu {
+        padding: 0px;
+    }
+
+    .album-image-item {
+        height: 100%;
+    }
+
+    .scroll-text.top-section {
+        top: 0;
+        display: none;
+    }
+
+    .wrap-group-tintuc .wrap-content {
+        flex-direction: column;
+    }
+
+    .box-main-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .box-main-tintuc {
+        flex-direction: column;
+    }
+
+    .group-tintuc {
+        width: 100%;
+    }
+
+    .one-tintuc {
+        width: 100%;
+    }
+
+    /* .content_contactus {
+        margin-top: 150px;
+    } */
+
+    .slideshow {
+        padding-top: 85px;
+    }
+
+    .wrap-product,
+    .wrap-duan,
+    .wrap-video,
+    .wrap-news {
+        padding: 20px 0px;
+        background-size: cover;
+    }
+
+    .footer-ul {
+        width: 100%;
+    }
+
+    .slick-youtube .slick-prev {
+        display: none;
+        right: auto;
+    }
+
+
+    .slick-youtube .slick-next {
+        display: none;
+        right: auto;
+    }
+
+    .slick-youtube .slick-next img {
+        display: none;
+    }
+
+    .slick-youtube .slick-prev img {
+        display: none;
+    }
+
+    .box-main-duan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .operation {
+        display: none;
+    }
+
+    .slick-youtube {
+        width: 100%;
+        display: block;
+        left: auto;
+    }
+
+    .wrap-khonggian {
+        padding: 20px 0px;
+    }
+
+    .info-gioithieu {}
+
+    .line-title .name-gioithieu {
+        font-size: 40px;
+        top: -30px;
+    }
+
+    .info-gioithieu .title-gioithieu {
+        font-size: 50px;
+    }
+
+    .xemthem-gioithieu {
+        margin-top: 25px;
+    }
+
+    .grid-product-seller {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .grid-product-menu {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .wrap-dichvu {
+        padding: 20px 0px;
+    }
+
+    .xemthem {
+        display: none;
+    }
+
+    .box-main-khonggian {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line-title .name-gioithieu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .box-video a strong img {
+        height: 100% !important;
+    }
+
+    .slider-for .box-video a strong::after {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-form .row {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .input-group-newsleter.col-6 {
+        width: 100%;
+    }
+
+    .toast-cus {
+        left: 5px;
+        width: calc(100% - 10px);
+    }
+
+    .box-readmore {
+        width: calc(100% - 5px);
+    }
+
+    .newshome-scroll {
+        width: 100%;
+    }
+
+    .newshome-intro {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .top-contact .form-contact .button-contact .file-contact span b {
+        max-width: 105px;
+    }
+
+    .cart-pro-detail {
+        flex-wrap: wrap;
+    }
+
+    .cart-pro-detail a {
+        width: 100%;
+        text-align: center;
+        margin: 0px !important;
+    }
+
+    .cart-pro-detail a:first-child {
+        margin-bottom: 5px !important;
+    }
+
+    .quick_contact {
+        display: none;
+    }
+
+    .quick_contact2 {
+        display: none;
+    }
+}
