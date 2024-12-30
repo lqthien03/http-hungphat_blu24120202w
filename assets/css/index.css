@@ -163,18 +163,6 @@ marquee {
 
 }
 
-.wrap-gioithieu::before {
-    position: absolute;
-    content: "";
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0px;
-    background: url(../imgs/bgr_img_gioithieu.png) no-repeat;
-    background-size: 100% 100%;
-    height: 500px;
-    width: 430px;
-}
-
 .box-main-gioithieu {
     display: flex;
     justify-content: flex-start;

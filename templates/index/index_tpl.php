@@ -2,7 +2,14 @@
 <div class="wrap-gioithieu">
     <div class="wrap-content">
         <div class="box-main-gioithieu">
-            <div class="info-gioithieu" data-aos="fade-right" data-aos-duration="1000">
+            <div class="img-gioithieu" data-aos="fade-right" data-aos-duration="1000">
+                <div class="scale-img">
+                    <img class="w-100 lazy" onerror="this.src='<?= THUMBS ?>/430x430x1/assets/images/noimage.png';"
+                        data-src="<?= THUMBS ?>/430x430x1/<?= UPLOAD_NEWS_L . $vechungtoi['photo'] ?>"
+                        alt="<?= $vechungtoi['name' . $lang] ?>" />
+                </div>
+            </div>
+            <div class="info-gioithieu" data-aos="fade-left" data-aos-duration="1000">
                 <span class="vechungtoi">
                     Về chúng tôi
                 </span>
@@ -13,13 +20,6 @@
                         Xem thêm
                     </div>
                 </a>
-            </div>
-            <div class="img-gioithieu" data-aos="fade-left" data-aos-duration="1000">
-                <div class="scale-img">
-                    <img class="w-100 lazy" onerror="this.src='<?= THUMBS ?>/430x430x1/assets/images/noimage.png';"
-                        data-src="<?= THUMBS ?>/430x430x1/<?= UPLOAD_NEWS_L . $vechungtoi['photo'] ?>"
-                        alt="<?= $vechungtoi['name' . $lang] ?>" />
-                </div>
             </div>
         </div>
     </div>
